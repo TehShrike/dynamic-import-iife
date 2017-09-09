@@ -1,0 +1,29 @@
+{
+  "name": "dynamic-import-iife",
+  "version": "1.0.0",
+  "description": "\"Dynamic import\"/lazyload IIFE bundles in the browser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TehShrike/dynamic-import-iife.git"
+  },
+  "keywords": [
+    "dynamic",
+    "import",
+    "iife",
+    "bundle",
+    "lazy",
+    "load",
+    "lazyload",
+    "browser"
+  ],
+  "author": "TehShrike",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/TehShrike/dynamic-import-iife/issues"
+  },
+  "homepage": "https://github.com/TehShrike/dynamic-import-iife#readme"
+}
