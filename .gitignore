@@ -1,1 +1,3 @@
 node_modules
+testbundle.js
+dist/*
