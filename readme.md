@@ -10,7 +10,7 @@ load('/some-iife.js').then(usefulFunctionExportedByModule => {
 })
 ```
 
-# promise = load(url, [options])
+# `promise = load(url, [options])`
 
 - `url`: string
 - `options`: object
