@@ -1,6 +1,6 @@
 {
   "name": "dynamic-import-iife",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "\"Dynamic import\"/lazyload IIFE bundles in the browser",
   "main": "dist/dynamic-import-iife.umd.js",
   "browser": "dist/dynamic-import-iife.cjs.js",
