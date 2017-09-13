@@ -61,6 +61,14 @@ test(`Can parse an iife without parens enclosing the function`, t => {
 	})
 })
 
+test(`Can parse an iife without parens with a stupid semicolon`, t => {
+	const load = makeDefaultImport()
+
+	return load('./iife-without-parens-with-semi.js').then(result => {
+		t.equal(result, 'success')
+	})
+})
+
 test(`Only makes one request at a time for the same file`, t => {
 	const calls = {
 		a: 0,
