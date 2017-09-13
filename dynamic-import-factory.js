@@ -25,5 +25,5 @@ module.exports = makeXhr => {
 const globalEval = eval
 const iifeRegex = /^\s*(?:var|let|const) ?[_$a-zA-Z\xA0-\uFFFF][_$a-zA-Z0-9\xA0-\uFFFF]+ ?= ?/
 function parseIife(response) {
-	return globalEval(response.responseText.replace(iifeRegex, ''))
+	return globalEval('(' + response.responseText.replace(iifeRegex, '') + ')')
 }

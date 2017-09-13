@@ -53,6 +53,14 @@ test(`Rejects when the file isn't there`, t => {
 	})
 })
 
+test(`Can parse an iife without parens enclosing the function`, t => {
+	const load = makeDefaultImport()
+
+	return load('./iife-without-parens.js').then(result => {
+		t.equal(result, 'success')
+	})
+})
+
 test(`Only makes one request at a time for the same file`, t => {
 	const calls = {
 		a: 0,
